@@ -2,6 +2,11 @@ main{
   padding-top: 100vh;
 }
 
+footer{
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 
 /*Estilo Menu*/
@@ -152,7 +157,7 @@ Header{
 
 .dessert-section{
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
 .card{
@@ -282,4 +287,33 @@ Header{
   font-style: normal;
   background-color: goldenrod;
   color: #fff;
+ }
+
+ /*footer*/
+
+ .footer-direction{
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+ }
+
+ .footer-direction p{
+  font-size: 18px;
+ }
+
+ .footer-social-media{
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+
+ .footer-social-media p{
+  font-size: 18px;
+  font-weight: bold;
  }
