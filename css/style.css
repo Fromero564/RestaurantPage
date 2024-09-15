@@ -338,3 +338,91 @@ Header{
   font-size: 18px;
   font-weight: bold;
  }
+
+
+ /*Media Queries*/
+
+ @media (max-width:980px){
+  
+.header {
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px !important;
+}
+
+.content{
+  display: block;
+  height: auto;
+  margin:0;
+  padding: 5px;
+}
+
+.content-paragraph{
+  width: 100vw;
+
+}
+
+.content-paragraph img{
+  width: 100vw;
+}
+  .navbar
+  {
+    display: none;
+  }
+ 
+  .starter-section{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch;
+  }
+  .pizza-section{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .dessert-section{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory; 
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .card{
+    min-width: 100vw; 
+    height: auto;
+    margin: 0;
+    position: relative;
+    scroll-snap-align: start; 
+    scroll-snap-stop: always; 
+  }
+  
+
+  
+
+  .contact-form{
+    display: block;
+  }
+
+  footer{
+    display: block;
+  }
+ }
