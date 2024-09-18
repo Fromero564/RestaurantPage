@@ -343,7 +343,12 @@ Header{
  /*Media Queries*/
 
  @media (max-width:980px){
-  
+  /*Menu responsive*/
+  .navbar {
+    display: none; 
+  }
+
+
 .header {
   color: #fff;
   height: 100vh;
@@ -362,9 +367,13 @@ Header{
   width: 100vw;
 
 }
+.content-paragraph h1{
+  padding: 10px;
+}
 
 .content-paragraph p{
   width: 90vw;
+  padding: 10px;
 }
 .content-paragraph img{
   width: 100vw;
@@ -411,12 +420,13 @@ Header{
 
   .card{
     min-width: 95vw;   
-    margin: 0px;
+    margin-right: 10px;
     position: relative;
     scroll-snap-align: start; 
     scroll-snap-stop: always; 
   }
   
+
   .contact-form{
     display: block;
   }
